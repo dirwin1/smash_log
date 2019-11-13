@@ -5,11 +5,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-import com.google.android.gms.auth.api.signin.GoogleSignIn;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-import com.google.android.gms.auth.api.signin.GoogleSignInStatusCodes;
-import com.google.android.gms.common.api.ApiException;
+//import com.google.android.gms.auth.api.signin.GoogleSignIn;
+//import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+//import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+//import com.google.android.gms.auth.api.signin.GoogleSignInStatusCodes;
+//import com.google.android.gms.common.api.ApiException;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 
@@ -21,12 +21,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.google.android.gms.*;
-import com.google.android.gms.common.api.Scope;
-import com.google.api.client.extensions.android.http.AndroidHttp;
-import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
-import com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException;
-import com.google.api.client.json.jackson2.JacksonFactory;
+//import com.google.android.gms.*;
+//import com.google.android.gms.common.api.Scope;
+//import com.google.api.client.extensions.android.http.AndroidHttp;
+//import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
+//import com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException;
+//import com.google.api.client.json.jackson2.JacksonFactory;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
         //thread.resume()
     }
-
+    /*
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
             // use the already signed in account
             Account account = GoogleSignIn.getLastSignedInAccount(this).getAccount();
         }
-    }
+    }*/
 
     public void getSheet(){
         /*
@@ -117,5 +117,15 @@ public class MainActivity extends AppCompatActivity {
             Log.e(CLASS_NAME, "failure to get spreadsheet: " + e.getMessage(), e);
         }
          */
+    }
+
+    //Called when the button is clicked, called in the xml
+    public void loadSheet(View view){
+
+        //connect to google?
+        //Send info to other activity
+        Intent actionActivity = new Intent(this, ActionActivity.class);
+        startActivity(actionActivity);
+
     }
 }
