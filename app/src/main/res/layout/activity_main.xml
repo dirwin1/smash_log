@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:text="Load Spreadsheet"
         android:layout_gravity="center"
-        android:layout_marginTop="150dp"/>
+        android:layout_marginTop="150dp"
+        android:onClick="loadSheet"/>
 
     <TextView
         android:id="@+id/textView"
