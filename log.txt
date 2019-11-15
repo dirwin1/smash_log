@@ -1,0 +1,318 @@
+commit b48c353fac7547e8afe150a4cb454eaa47ea5ac5
+Author: AMillik1 <amillik1@binghamton.edu>
+Date:   Fri Nov 15 14:22:44 2019 -0500
+
+    updated manifest
+
+ app/src/main/AndroidManifest.xml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 97f54bdf90bcc767d2d9213bba9d0f9ce4f5d21d
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Fri Nov 15 10:41:47 2019 -0500
+
+    Spinners
+
+ .../java/com/example/smashlog/MainActivity.java    | 29 +++++++-
+ app/src/main/res/values/characters.xml             | 84 ++++++++++++++++++++++
+ 2 files changed, 112 insertions(+), 1 deletion(-)
+
+commit 47dadeed2a02eba99920c4f4bca38fb1728c86cb
+Author: AMillik1 <amillik1@binghamton.edu>
+Date:   Fri Nov 15 09:22:54 2019 -0500
+
+    changed file names
+
+ app/src/main/AndroidManifest.xml                            |   4 +++-
+ .../main/res/drawable-v24/{Bayonetta.png => bayonetta.png}  | Bin
+ app/src/main/res/drawable-v24/{Bowser.png => bowser.png}    | Bin
+ .../main/res/drawable-v24/{BowserJr.png => bowserjr.png}    | Bin
+ .../drawable-v24/{CaptainFalcon.png => captainfalcon.png}   | Bin
+ .../main/res/drawable-v24/{Charizard.png => charizard.png}  | Bin
+ app/src/main/res/drawable-v24/{Chrom.png => chrom.png}      | Bin
+ app/src/main/res/drawable-v24/{Cloud.png => cloud.png}      | Bin
+ app/src/main/res/drawable-v24/{Corrin.png => corrin.png}    | Bin
+ app/src/main/res/drawable-v24/{Daisy.png => daisy.png}      | Bin
+ app/src/main/res/drawable-v24/{DarkPit.png => darkpit.png}  | Bin
+ .../main/res/drawable-v24/{DiddyKong.png => diddykong.png}  | Bin
+ .../res/drawable-v24/{DonkeyKong.png => donkeykong.png}     | Bin
+ .../main/res/drawable-v24/{Dr._Mario.png => drmario.png}    | Bin
+ .../main/res/drawable-v24/{DuckHunt.png => duckhunt.png}    | Bin
+ app/src/main/res/drawable-v24/{Falco.png => falco.png}      | Bin
+ app/src/main/res/drawable-v24/{Fox.png => fox.png}          | Bin
+ .../main/res/drawable-v24/{Ganondorf.png => ganondorf.png}  | Bin
+ .../main/res/drawable-v24/{Greninja.png => greninja.png}    | Bin
+ app/src/main/res/drawable-v24/{Hero.png => hero.png}        | Bin
+ .../res/drawable-v24/{IceClimbers.png => iceclimbers.png}   | Bin
+ app/src/main/res/drawable-v24/{Ike.png => ike.png}          | Bin
+ .../res/drawable-v24/{Incineroar.png => incineroar.png}     | Bin
+ app/src/main/res/drawable-v24/{Inkling.png => inkling.png}  | Bin
+ .../main/res/drawable-v24/{Isabelle.png => isabelle.png}    | Bin
+ app/src/main/res/drawable-v24/{Ivysaur.png => ivysaur.png}  | Bin
+ .../res/drawable-v24/{Jigglypuff.png => jigglypuff.png}     | Bin
+ app/src/main/res/drawable-v24/{Joker.png => joker.png}      | Bin
+ app/src/main/res/drawable-v24/{Ken.png => ken.png}          | Bin
+ .../res/drawable-v24/{KingDedede.png => kingdedede.png}     | Bin
+ .../main/res/drawable-v24/{KingKRool.png => kingkrool.png}  | Bin
+ app/src/main/res/drawable-v24/{Kirby.png => kirby.png}      | Bin
+ app/src/main/res/drawable-v24/{Link.png => link.png}        | Bin
+ .../main/res/drawable-v24/{LittleMac.png => littlemac.png}  | Bin
+ app/src/main/res/drawable-v24/{Lucario.png => lucario.png}  | Bin
+ app/src/main/res/drawable-v24/{Lucas.png => lucas.png}      | Bin
+ app/src/main/res/drawable-v24/{Lucina.png => lucina.png}    | Bin
+ app/src/main/res/drawable-v24/{Luigi.png => luigi.png}      | Bin
+ app/src/main/res/drawable-v24/{Mario.png => mario.png}      | Bin
+ app/src/main/res/drawable-v24/{Marth.png => marth.png}      | Bin
+ app/src/main/res/drawable-v24/{MegaMan.png => megaman.png}  | Bin
+ .../res/drawable-v24/{MetaKnight.png => metaknight.png}     | Bin
+ app/src/main/res/drawable-v24/{Mewtwo.png => mewtwo.png}    | Bin
+ .../res/drawable-v24/{MiiFighter.png => miifighter.png}     | Bin
+ .../main/res/drawable-v24/{MiiGunner.png => miigunner.png}  | Bin
+ .../{MiiSwordfighter.png => miiswordfighter.png}            | Bin
+ .../drawable-v24/{MrGameAndWatch.png => mrgameandwatch.png} | Bin
+ app/src/main/res/drawable-v24/{Ness.png => ness.png}        | Bin
+ app/src/main/res/drawable-v24/{Olimar.png => olimar.png}    | Bin
+ app/src/main/res/drawable-v24/{PacMan.png => pacman.png}    | Bin
+ .../main/res/drawable-v24/{Palutena.png => palutena.png}    | Bin
+ app/src/main/res/drawable-v24/{Peach.png => peach.png}      | Bin
+ app/src/main/res/drawable-v24/{Pichu.png => pichu.png}      | Bin
+ app/src/main/res/drawable-v24/{Pikachu.png => pikachu.png}  | Bin
+ .../res/drawable-v24/{PirhanaPlant.png => pirhanaplant.png} | Bin
+ app/src/main/res/drawable-v24/{Pit.png => pit.png}          | Bin
+ .../src/main/res/drawable-v24/pokemontrainer.png            | Bin
+ app/src/main/res/drawable-v24/{Richter.png => richter.png}  | Bin
+ app/src/main/res/drawable-v24/{Ridley.png => ridley.png}    | Bin
+ app/src/main/res/drawable-v24/{ROB.png => rob.png}          | Bin
+ app/src/main/res/drawable-v24/{Robin.png => robin.png}      | Bin
+ .../main/res/drawable-v24/{Rosalina.png => rosalina.png}    | Bin
+ app/src/main/res/drawable-v24/{Roy.png => roy.png}          | Bin
+ app/src/main/res/drawable-v24/{Ryu.png => ryu.png}          | Bin
+ app/src/main/res/drawable-v24/{Samus.png => samus.png}      | Bin
+ app/src/main/res/drawable-v24/{Sheik.png => sheik.png}      | Bin
+ app/src/main/res/drawable-v24/{Shulk.png => shulk.png}      | Bin
+ app/src/main/res/drawable-v24/{Simon.png => simon.png}      | Bin
+ app/src/main/res/drawable-v24/{Snake.png => snake.png}      | Bin
+ app/src/main/res/drawable-v24/{Sonic.png => sonic.png}      | Bin
+ .../main/res/drawable-v24/{Squirtle.png => squirtle.png}    | Bin
+ .../main/res/drawable-v24/{ToonLink.png => toonlink.png}    | Bin
+ .../main/res/drawable-v24/{Villager.png => villager.png}    | Bin
+ app/src/main/res/drawable-v24/{Wario.png => wario.png}      | Bin
+ .../drawable-v24/{WiiFitTrainer.png => wiifittrainer.png}   | Bin
+ app/src/main/res/drawable-v24/{Wolf.png => wolf.png}        | Bin
+ app/src/main/res/drawable-v24/{Yoshi.png => yoshi.png}      | Bin
+ .../main/res/drawable-v24/{YoungLink.png => younglink.png}  | Bin
+ app/src/main/res/drawable-v24/{Zelda.png => zelda.png}      | Bin
+ .../drawable-v24/{ZeroSuitSamus.png => zerosuitsamus.png}   | Bin
+ 80 files changed, 3 insertions(+), 1 deletion(-)
+
+commit c6d0db3fda34a4293d446c657e582fc881161e73
+Merge: 6fa750b 50f8e70
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Wed Nov 13 10:39:22 2019 -0500
+
+    PICTURES
+
+commit 50f8e708fa3b993705ec40ad55b73fca48e20a7a
+Author: AMillik1 <amillik1@binghamton.edu>
+Date:   Wed Nov 13 10:35:09 2019 -0500
+
+    fixed positions in activities
+
+ .../java/com/example/smashlog/MainActivity.java    | 36 ++++++----
+ app/src/main/res/layout/activity_action.xml        | 77 ++++++++++++++--------
+ app/src/main/res/layout/activity_main.xml          |  3 +-
+ 3 files changed, 74 insertions(+), 42 deletions(-)
+
+commit 6fa750b652e7d4b1a75bce8a43e077cb5782167c
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Wed Nov 13 10:35:04 2019 -0500
+
+    PICTURES
+
+ app/src/main/res/drawable-v24/Bayonetta.png          | Bin 0 -> 10306888 bytes
+ app/src/main/res/drawable-v24/Bowser.png             | Bin 0 -> 9978111 bytes
+ app/src/main/res/drawable-v24/BowserJr.png           | Bin 0 -> 217681 bytes
+ app/src/main/res/drawable-v24/CaptainFalcon.png      | Bin 0 -> 250389 bytes
+ app/src/main/res/drawable-v24/Charizard.png          | Bin 0 -> 230591 bytes
+ app/src/main/res/drawable-v24/Chrom.png              | Bin 0 -> 504799 bytes
+ app/src/main/res/drawable-v24/Cloud.png              | Bin 0 -> 224485 bytes
+ app/src/main/res/drawable-v24/Corrin.png             | Bin 0 -> 9608699 bytes
+ app/src/main/res/drawable-v24/Daisy.png              | Bin 0 -> 196969 bytes
+ app/src/main/res/drawable-v24/DarkPit.png            | Bin 0 -> 9385683 bytes
+ app/src/main/res/drawable-v24/DiddyKong.png          | Bin 0 -> 10187782 bytes
+ app/src/main/res/drawable-v24/DonkeyKong.png         | Bin 0 -> 9751330 bytes
+ app/src/main/res/drawable-v24/Dr._Mario.png          | Bin 0 -> 214223 bytes
+ app/src/main/res/drawable-v24/DuckHunt.png           | Bin 0 -> 196325 bytes
+ app/src/main/res/drawable-v24/Falco.png              | Bin 0 -> 836856 bytes
+ app/src/main/res/drawable-v24/Fox.png                | Bin 0 -> 3116861 bytes
+ app/src/main/res/drawable-v24/Ganondorf.png          | Bin 0 -> 9997247 bytes
+ app/src/main/res/drawable-v24/Greninja.png           | Bin 0 -> 190090 bytes
+ app/src/main/res/drawable-v24/Hero.png               | Bin 0 -> 2094553 bytes
+ app/src/main/res/drawable-v24/IceClimbers.png        | Bin 0 -> 10100442 bytes
+ app/src/main/res/drawable-v24/Ike.png                | Bin 0 -> 9456428 bytes
+ app/src/main/res/drawable-v24/Incineroar.png         | Bin 0 -> 8598826 bytes
+ app/src/main/res/drawable-v24/Inkling.png            | Bin 0 -> 7475758 bytes
+ app/src/main/res/drawable-v24/Isabelle.png           | Bin 0 -> 1610928 bytes
+ app/src/main/res/drawable-v24/Ivysaur.png            | Bin 0 -> 264001 bytes
+ app/src/main/res/drawable-v24/Jigglypuff.png         | Bin 0 -> 161526 bytes
+ app/src/main/res/drawable-v24/Joker.png              | Bin 0 -> 1230551 bytes
+ app/src/main/res/drawable-v24/Ken.png                | Bin 0 -> 4486616 bytes
+ app/src/main/res/drawable-v24/KingDedede.png         | Bin 0 -> 9618445 bytes
+ app/src/main/res/drawable-v24/KingKRool.png          | Bin 0 -> 10017315 bytes
+ app/src/main/res/drawable-v24/Kirby.png              | Bin 0 -> 120935 bytes
+ app/src/main/res/drawable-v24/Link.png               | Bin 0 -> 10037958 bytes
+ app/src/main/res/drawable-v24/LittleMac.png          | Bin 0 -> 190742 bytes
+ app/src/main/res/drawable-v24/Lucario.png            | Bin 0 -> 208910 bytes
+ app/src/main/res/drawable-v24/Lucas.png              | Bin 0 -> 246650 bytes
+ app/src/main/res/drawable-v24/Lucina.png             | Bin 0 -> 239124 bytes
+ app/src/main/res/drawable-v24/Luigi.png              | Bin 0 -> 9801095 bytes
+ app/src/main/res/drawable-v24/Mario.png              | Bin 0 -> 10047163 bytes
+ app/src/main/res/drawable-v24/Marth.png              | Bin 0 -> 9209222 bytes
+ app/src/main/res/drawable-v24/MegaMan.png            | Bin 0 -> 234706 bytes
+ app/src/main/res/drawable-v24/MetaKnight.png         | Bin 0 -> 8160259 bytes
+ app/src/main/res/drawable-v24/Mewtwo.png             | Bin 0 -> 179638 bytes
+ app/src/main/res/drawable-v24/MiiFighter.png         | Bin 0 -> 176809 bytes
+ app/src/main/res/drawable-v24/MiiGunner.png          | Bin 0 -> 213572 bytes
+ app/src/main/res/drawable-v24/MiiSwordfighter.png    | Bin 0 -> 9767129 bytes
+ app/src/main/res/drawable-v24/MrGameAndWatch.png     | Bin 0 -> 90319 bytes
+ app/src/main/res/drawable-v24/Ness.png               | Bin 0 -> 166624 bytes
+ app/src/main/res/drawable-v24/Olimar.png             | Bin 0 -> 259406 bytes
+ app/src/main/res/drawable-v24/PacMan.png             | Bin 0 -> 192193 bytes
+ app/src/main/res/drawable-v24/Palutena.png           | Bin 0 -> 1051502 bytes
+ app/src/main/res/drawable-v24/Peach.png              | Bin 0 -> 9791046 bytes
+ app/src/main/res/drawable-v24/Pichu.png              | Bin 0 -> 123882 bytes
+ app/src/main/res/drawable-v24/Pikachu.png            | Bin 0 -> 137364 bytes
+ app/src/main/res/drawable-v24/PirhanaPlant.png       | Bin 0 -> 3950841 bytes
+ app/src/main/res/drawable-v24/Pit.png                | Bin 0 -> 292092 bytes
+ .../main/res/drawable-v24/Pok\303\251monTrainer.png" | Bin 0 -> 198518 bytes
+ app/src/main/res/drawable-v24/ROB.png                | Bin 0 -> 317592 bytes
+ app/src/main/res/drawable-v24/Richter.png            | Bin 0 -> 3199053 bytes
+ app/src/main/res/drawable-v24/Ridley.png             | Bin 0 -> 9451995 bytes
+ app/src/main/res/drawable-v24/Robin.png              | Bin 0 -> 9118852 bytes
+ app/src/main/res/drawable-v24/Rosalina.png           | Bin 0 -> 7755936 bytes
+ app/src/main/res/drawable-v24/Roy.png                | Bin 0 -> 8856073 bytes
+ app/src/main/res/drawable-v24/Ryu.png                | Bin 0 -> 201962 bytes
+ app/src/main/res/drawable-v24/Samus.png              | Bin 0 -> 210499 bytes
+ app/src/main/res/drawable-v24/Sheik.png              | Bin 0 -> 218165 bytes
+ app/src/main/res/drawable-v24/Shulk.png              | Bin 0 -> 910937 bytes
+ app/src/main/res/drawable-v24/Simon.png              | Bin 0 -> 679346 bytes
+ app/src/main/res/drawable-v24/Snake.png              | Bin 0 -> 249418 bytes
+ app/src/main/res/drawable-v24/Sonic.png              | Bin 0 -> 242806 bytes
+ app/src/main/res/drawable-v24/Squirtle.png           | Bin 0 -> 157141 bytes
+ app/src/main/res/drawable-v24/ToonLink.png           | Bin 0 -> 10022397 bytes
+ app/src/main/res/drawable-v24/Villager.png           | Bin 0 -> 231490 bytes
+ app/src/main/res/drawable-v24/Wario.png              | Bin 0 -> 9782815 bytes
+ app/src/main/res/drawable-v24/WiiFitTrainer.png      | Bin 0 -> 92951 bytes
+ app/src/main/res/drawable-v24/Wolf.png               | Bin 0 -> 9788880 bytes
+ app/src/main/res/drawable-v24/Yoshi.png              | Bin 0 -> 211984 bytes
+ app/src/main/res/drawable-v24/YoungLink.png          | Bin 0 -> 252498 bytes
+ app/src/main/res/drawable-v24/Zelda.png              | Bin 0 -> 7832766 bytes
+ app/src/main/res/drawable-v24/ZeroSuitSamus.png      | Bin 0 -> 186946 bytes
+ 79 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 9bd7c4a7fdd34a0005513420327e6bed33206509
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Mon Nov 11 10:35:14 2019 -0500
+
+    Data Classes
+
+ .../main/java/com/example/smashlog/CHARACTER.java  | 94 ++++++++++++++++++++++
+ .../main/java/com/example/smashlog/Character.java  | 17 ----
+ app/src/main/java/com/example/smashlog/Record.java | 16 ++++
+ .../java/com/example/smashlog/Spreadsheet.java     | 22 +++++
+ 4 files changed, 132 insertions(+), 17 deletions(-)
+
+commit 86da878ec9daf659daa29290de17c1ca6abb6a53
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Mon Nov 11 10:01:21 2019 -0500
+
+    characters
+
+ app/src/main/java/com/example/smashlog/Character.java   | 17 +++++++++++++++++
+ .../main/java/com/example/smashlog/MainActivity.java    | 14 +-------------
+ 2 files changed, 18 insertions(+), 13 deletions(-)
+
+commit 7ce4847cd34eff45bcd0281cf856ad61bae15dc0
+Merge: b181d11 312e5fa
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Wed Nov 6 10:40:47 2019 -0500
+
+    Merge branch 'master' of https://github.com/dirwin1/smash_log
+    
+    i merge message
+
+commit b181d11f7474ee2b514a8013e501ec922bda1d8a
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Wed Nov 6 10:39:39 2019 -0500
+
+    trying to sign in
+
+ app/build.gradle                                   |  3 +
+ .../java/com/example/smashlog/MainActivity.java    | 72 ++++++++++++++++++++++
+ 2 files changed, 75 insertions(+)
+
+commit 312e5fab70e5a7ff26d0c344eee38dff3bd33772
+Author: AMillik1 <amillik1@binghamton.edu>
+Date:   Wed Nov 6 10:23:50 2019 -0500
+
+    Added new activity
+
+ app/src/main/AndroidManifest.xml                   |   4 +
+ .../java/com/example/smashlog/ActionActivity.java  |  14 +++
+ app/src/main/res/layout/activity_action.xml        | 110 +++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  39 +++++---
+ app/src/main/res/layout/content_main.xml           |  13 +--
+ app/src/main/res/values/styles.xml                 |   2 +-
+ 6 files changed, 156 insertions(+), 26 deletions(-)
+
+commit 77c07d46296097b245b7071982bfcb732afa6e6a
+Author: AMillik1 <amillik1@binghamton.edu>
+Date:   Mon Nov 4 10:40:45 2019 -0500
+
+    Testing pushing
+
+ app/src/main/java/com/example/smashlog/MainActivity.java | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 615bd65e20d90d2b152368b5c81736287bc53a87
+Author: Dylan Irwin <dirwin4567@gmail.com>
+Date:   Mon Nov 4 10:13:28 2019 -0500
+
+    Initial
+
+ app/.gitignore                                     |   1 +
+ app/build.gradle                                   |  29 ++++
+ app/proguard-rules.pro                             |  21 +++
+ .../example/smashlog/ExampleInstrumentedTest.java  |  27 ++++
+ app/src/main/AndroidManifest.xml                   |  24 +++
+ .../java/com/example/smashlog/MainActivity.java    |  55 +++++++
+ .../res/drawable-v24/ic_launcher_foreground.xml    |  34 ++++
+ .../main/res/drawable/ic_launcher_background.xml   | 170 ++++++++++++++++++++
+ app/src/main/res/layout/activity_main.xml          |  33 ++++
+ app/src/main/res/layout/content_main.xml           |  20 +++
+ app/src/main/res/menu/menu_main.xml                |  10 ++
+ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml |   5 +
+ .../res/mipmap-anydpi-v26/ic_launcher_round.xml    |   5 +
+ app/src/main/res/mipmap-hdpi/ic_launcher.png       | Bin 0 -> 2963 bytes
+ app/src/main/res/mipmap-hdpi/ic_launcher_round.png | Bin 0 -> 4905 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher.png       | Bin 0 -> 2060 bytes
+ app/src/main/res/mipmap-mdpi/ic_launcher_round.png | Bin 0 -> 2783 bytes
+ app/src/main/res/mipmap-xhdpi/ic_launcher.png      | Bin 0 -> 4490 bytes
+ .../main/res/mipmap-xhdpi/ic_launcher_round.png    | Bin 0 -> 6895 bytes
+ app/src/main/res/mipmap-xxhdpi/ic_launcher.png     | Bin 0 -> 6387 bytes
+ .../main/res/mipmap-xxhdpi/ic_launcher_round.png   | Bin 0 -> 10413 bytes
+ app/src/main/res/mipmap-xxxhdpi/ic_launcher.png    | Bin 0 -> 9128 bytes
+ .../main/res/mipmap-xxxhdpi/ic_launcher_round.png  | Bin 0 -> 15132 bytes
+ app/src/main/res/values/colors.xml                 |   6 +
+ app/src/main/res/values/dimens.xml                 |   3 +
+ app/src/main/res/values/strings.xml                |   4 +
+ app/src/main/res/values/styles.xml                 |  20 +++
+ .../java/com/example/smashlog/ExampleUnitTest.java |  17 ++
+ build.gradle                                       |  27 ++++
+ gradle.properties                                  |  20 +++
+ gradle/wrapper/gradle-wrapper.jar                  | Bin 0 -> 54329 bytes
+ gradle/wrapper/gradle-wrapper.properties           |   6 +
+ gradlew                                            | 172 +++++++++++++++++++++
+ gradlew.bat                                        |  84 ++++++++++
+ settings.gradle                                    |   2 +
+ 35 files changed, 795 insertions(+)
