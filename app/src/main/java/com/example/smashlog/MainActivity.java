@@ -20,6 +20,9 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 //import com.google.android.gms.*;
 //import com.google.android.gms.common.api.Scope;
@@ -33,14 +36,28 @@ import java.util.Arrays;
 import java.util.Collections;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
     private static final int RC_SIGN_IN = 007;
     private Account account;
+    private Spinner spinner1, spinner2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        //character spinners
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.characters_array,
+                android.R.layout.simple_spinner_dropdown_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        spinner1 = findViewById(R.id.spinner);
+        spinner1.setAdapter(adapter);
+        spinner1.setOnItemSelectedListener(this);
+
+        spinner2 = findViewById(R.id.spinner2);
+        spinner2.setAdapter(adapter);
+        spinner2.setOnItemSelectedListener(this);
     }
 
     @Override
@@ -126,6 +143,16 @@ public class MainActivity extends AppCompatActivity {
         //Send info to other activity
         Intent actionActivity = new Intent(this, ActionActivity.class);
         startActivity(actionActivity);
+
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> adapterView) {
 
     }
 }

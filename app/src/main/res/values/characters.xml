@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="characters_array">
+        <item>Bayonetta</item>
+        <item>Bowser</item>
+        <item>Bowserjr</item>
+        <item>Captain Falcon</item>
+        <item>Charizard</item>
+        <item>Chrom</item>
+        <item>Cloud</item>
+        <item>Corrin</item>
+        <item>Daisy</item>
+        <item>Darkpit</item>
+        <item>Diddy Kong</item>
+        <item>Donkey Kong</item>
+        <item>Dr Mario</item>
+        <item>Duck Hunt</item>
+        <item>Falco</item>
+        <item>Fox</item>
+        <item>Ganondorf</item>
+        <item>Greninja</item>
+        <item>Hero</item>
+        <item>Ice Climbers</item>
+        <item>Ike</item>
+        <item>Incineroar</item>
+        <item>Inkling</item>
+        <item>Isabelle</item>
+        <item>Ivysaur</item>
+        <item>Jigglypuff</item>
+        <item>Joker</item>
+        <item>Ken</item>
+        <item>King Dedede</item>
+        <item>King K. Rool</item>
+        <item>Kirby</item>
+        <item>Link</item>
+        <item>Little Mac</item>
+        <item>Lucario</item>
+        <item>Lucas</item>
+        <item>Lucina</item>
+        <item>Luigi</item>
+        <item>Mario</item>
+        <item>Marth</item>
+        <item>Mega Man</item>
+        <item>Meta Knight</item>
+        <item>Mew Two</item>
+        <item>Mii Fighter</item>
+        <item>Mii Gunner</item>
+        <item>Mii Sword Fighter</item>
+        <item>Mr Game and Watch</item>
+        <item>ness</item>
+        <item>Olimar</item>
+        <item>Pacman</item>
+        <item>Palutena</item>
+        <item>Peach</item>
+        <item>Pichu</item>
+        <item>Pikachu</item>
+        <item>Pirhana Plant</item>
+        <item>Pit</item>
+        <item>Pokemon Trainer</item>
+        <item>Richter</item>
+        <item>Ridley</item>
+        <item>Rob</item>
+        <item>Robin</item>
+        <item>Rosalina</item>
+        <item>Roy</item>
+        <item>Ryu</item>
+        <item>Samus</item>
+        <item>Sheik</item>
+        <item>Shulk</item>
+        <item>Simon</item>
+        <item>Snake</item>
+        <item>Sonic</item>
+        <item>Squirtle</item>
+        <item>Toon Link</item>
+        <item>Villager</item>
+        <item>Wario</item>
+        <item>Wii Fit Trainer</item>
+        <item>Wolf</item>
+        <item>Yoshi</item>
+        <item>Young Link</item>
+        <item>Zelda</item>
+        <item>Zero Suit Samus</item>
+    </string-array>
+</resources>
