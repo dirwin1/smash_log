@@ -128,6 +128,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         //connect to google?
         //Send info to other activity
         Intent actionActivity = new Intent(this, ActionActivity.class);
+        //intent.putExtra("key", data);
+        //in other file: string variable = getIntent().getStringExtra("key");
+
+        //when a winner button is clicked:
+        //Snackbar snackbar = Snackbar.make(container, text, snackbar.LENGTH_LONG);
+        //snackbar.show()
         startActivity(actionActivity);
 
     }
