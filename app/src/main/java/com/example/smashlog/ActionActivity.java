@@ -14,7 +14,6 @@ public class ActionActivity extends AppCompatActivity implements AdapterView.OnI
 
     private Spinner spinner1, spinner2;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +31,13 @@ public class ActionActivity extends AppCompatActivity implements AdapterView.OnI
         spinner2 = findViewById(R.id.spinner2);
         spinner2.setAdapter(adapter);
         spinner2.setOnItemSelectedListener(this);
+
+        try {
+            SheetsConnectivity.printSheet();
+        } catch (Exception e){
+            System.out.println("ERROR CONNECTING TO GOOGLE SHEETS");
+            System.out.println(e.toString());
+        }
     }
 
     public void onItemSelected(AdapterView<?> parent, View view, int pos, long id){
@@ -57,7 +63,6 @@ public class ActionActivity extends AppCompatActivity implements AdapterView.OnI
         name = name.toLowerCase();
         name = name.replaceAll("\\s", "");
         name = name.replace(".", "");
-        System.out.println(name);
         int id = getResources().getIdentifier(name, "drawable", getPackageName());
         imageView.setImageResource(id);
     }

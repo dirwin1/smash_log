@@ -1,39 +1,17 @@
 package com.example.smashlog;
 
 import android.accounts.Account;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
-//import com.google.android.gms.auth.api.signin.GoogleSignIn;
-//import com.google.android.gms.auth.api.signin.GoogleSignInClient;
-//import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
-//import com.google.android.gms.auth.api.signin.GoogleSignInStatusCodes;
-//import com.google.android.gms.common.api.ApiException;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
 
-//import com.google.android.gms.*;
-//import com.google.android.gms.common.api.Scope;
-//import com.google.api.client.extensions.android.http.AndroidHttp;
-//import com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential;
-//import com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException;
-//import com.google.api.client.json.jackson2.JacksonFactory;
-
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.Collections;
+import com.google.api.services.sheets.v4.model.Sheet;
 
 
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
@@ -109,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
         GoogleAccountCredential credential = GoogleAccountCredential.usingOAuth2(context, Collections.singleton("https://www.googleapis.com/auth/spreadsheets"));
         credential.setSelectedAccount(account);
-        Sheets sheetsService = new Sheets.Builder(AndroidHttp.newCompatibleTransport(), JacksonFactory.getDefaultInstance(), credential).build();
+        SheetsConnectivity sheetsService = new SheetsConnectivity.Builder(AndroidHttp.newCompatibleTransport(), JacksonFactory.getDefaultInstance(), credential).build();
         Spreadsheet response = null;
         try {
             response = sheetsService.spreadsheets().get("insert spreadsheet ID here").setRanges(Arrays.asList("'sheet name here'!A2:G30"))
@@ -124,7 +102,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     //Called when the button is clicked, called in the xml
     public void loadSheet(View view){
-
         //connect to google?
         //Send info to other activity
         Intent actionActivity = new Intent(this, ActionActivity.class);
@@ -135,7 +112,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         //Snackbar snackbar = Snackbar.make(container, text, snackbar.LENGTH_LONG);
         //snackbar.show()
         startActivity(actionActivity);
-
     }
 
     @Override
