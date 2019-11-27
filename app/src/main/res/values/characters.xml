@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="characters_array">
+        <item>Banjo</item>
         <item>Bayonetta</item>
         <item>Bowser</item>
         <item>Bowserjr</item>
@@ -10,6 +11,7 @@
         <item>Corrin</item>
         <item>Daisy</item>
         <item>Darkpit</item>
+        <item>DarkSamus</item>
         <item>Diddy Kong</item>
         <item>Donkey Kong</item>
         <item>Dr Mario</item>
@@ -40,8 +42,7 @@
         <item>Marth</item>
         <item>Mega Man</item>
         <item>Meta Knight</item>
-        <item>Mew Two</item>
-        <item>Mii Sword Fighter</item>
+        <item>Mewtwo</item>
         <item>Mr Game and Watch</item>
         <item>Ness</item>
         <item>Olimar</item>
@@ -66,6 +67,7 @@
         <item>Simon</item>
         <item>Snake</item>
         <item>Sonic</item>
+        <item>Terry</item>
         <item>Toon Link</item>
         <item>Villager</item>
         <item>Wario</item>
