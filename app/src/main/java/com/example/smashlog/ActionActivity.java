@@ -38,12 +38,14 @@ public class ActionActivity extends AppCompatActivity implements AdapterView.OnI
         spinner2.setAdapter(adapter);
         spinner2.setOnItemSelectedListener(this);
 
+        /*
         try {
-            SheetsConnectivity.printSheet();
+            //SheetsConnectivity.printSheet(getAssets(), getBaseContext());
         } catch (Exception e){
             System.out.println("ERROR CONNECTING TO GOOGLE SHEETS");
             System.out.println(e.toString());
         }
+         */
 
 
         //spreadsheet import logic
