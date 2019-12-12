@@ -1,1 +1,1 @@
-This app will connect to a spreadsheet and track 1v1 records for Smash Ultimate. The app is going to be developed over the next 2 assignments, where the first does basic csv file functioning and the second will connect to a google sheets file.
+This app will connect to a spreadsheet and track 1v1 records for Smash Ultimate. The app is going to be developed over the next 2 assignments, where the first does basic csv file functioning and the second will connect to a google sheets file. After countless hours of research, google sheets connectivity remains a mystery.
